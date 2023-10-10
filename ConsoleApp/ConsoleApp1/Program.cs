@@ -12,6 +12,7 @@
             {
                 int arrayDigit = array[i];
                 array[i] = array[array.Length - 1 - i];
+
                 array[array.Length - 1 - i] = arrayDigit;
             }
 
